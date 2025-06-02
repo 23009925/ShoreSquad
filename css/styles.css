@@ -110,9 +110,17 @@ body {
 
 .map-container {
     height: 400px;
-    background-color: #e5e5e5;
     border-radius: var(--border-radius);
     margin-top: var(--spacing-md);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.map-info {
+    text-align: center;
+    margin-top: var(--spacing-md);
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 /* Weather Section */
